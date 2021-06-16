@@ -1,0 +1,22 @@
+.container{
+    margin-top: 40px;
+}
+footer{
+    text-align: center; background-color:black; color: whitesmoke;
+}
+body{
+    background-color: blue;
+    @media print {
+        background:white;
+    }
+}
+@media (max-width: 550px){
+    .navbar{
+        font-size: larger;
+    }
+}
+@media (min-width: 1025px){
+    .container{
+        background-color: crimson;
+    }
+}
