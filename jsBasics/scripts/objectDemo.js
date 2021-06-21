@@ -1,0 +1,40 @@
+//Question 1
+// function createEmployee(firstName, lastName, salary) {
+//     return {
+//       firstName: firstName,
+//       lastName: lastName,
+//       salary: salary,
+// 	   employeeDetails(){
+// 		  return firstName + ' ' + lastName + ' ' + salary ;
+// 	  }
+//    }
+//   }
+//   function Employee(firstName, lastName, salary) {
+//     this.firstName = firstName;
+//     this.lastName = lastName;
+//     this.salary = salary;
+//   }
+
+//Question 3
+
+// function circle(radius)
+// {
+//     this.radius = radius;
+//     this.area = function () 
+//     {
+//         return Math.PI * this.radius * this.radius;
+//     };
+//     this.perimeter = function ()
+//     {
+//         return 2*Math.PI*this.radius;
+//     };
+// }
+// var c = new circle(3);
+// console.log('Area =', c.area().toFixed(2));
+// console.log('perimeter =', c.perimeter().toFixed(2));
+
+//Question 4
+
+// function has(object, key) {
+//     return object ? hasOwnProperty.call(object, key) : false;
+//  }
